@@ -1,3 +1,9 @@
+import quyNhonCoastImg from '../assets/images/quy_nhon_coast_1795079603330.jpg';
+import vietnameseCuisineImg from '../assets/images/vietnamese_cuisine_1795079604562.jpg';
+import localMarketImg from '../assets/images/local_market_vietnam_1795079604790.jpg';
+import ruralVietnamFarmImg from '../assets/images/rural_vietnam_farm_1795079603969.jpg';
+import cookingClassGatheringImg from '../assets/images/cooking_class_gathering_1795079604080.jpg';
+
 export interface EditorialPhoto {
   id: string;
   src: string;
@@ -76,7 +82,7 @@ export const PORTFOLIO_DATA = {
     collage: [
       {
         id: 'quy-nhon',
-        src: '/src/assets/images/quy_nhon_coast_1795079603330.jpg',
+        src: quyNhonCoastImg,
         alt: 'Golden hour coastline and wooden fishing boats in Quy Nhon, Vietnam',
         caption: 'Coastal mornings where sea air and quiet fishing coves set the pace of life.',
         location: 'Quy Nhon Coastline',
@@ -84,7 +90,7 @@ export const PORTFOLIO_DATA = {
       },
       {
         id: 'local-market',
-        src: '/src/assets/images/local_market_vietnam_1795079604790.jpg',
+        src: localMarketImg,
         alt: 'Vibrant traditional Vietnamese morning market with woven bamboo baskets of fresh herbs, lemongrass, and chilies',
         caption: 'Woven baskets of fresh herbs, lemongrass, and chilies — the living heart of every neighborhood.',
         location: 'Traditional Morning Market',
@@ -92,7 +98,7 @@ export const PORTFOLIO_DATA = {
       },
       {
         id: 'vietnamese-food',
-        src: '/src/assets/images/vietnamese_cuisine_1795079604562.jpg',
+        src: vietnameseCuisineImg,
         alt: 'Traditional Vietnamese dishes including crispy banh xeo, fresh summer rolls, herbs, and dipping sauces',
         caption: 'Balanced flavors of fresh herbs, crispy textures, and shared dipping bowls.',
         location: 'Vietnamese Culinary Heritage',
@@ -100,7 +106,7 @@ export const PORTFOLIO_DATA = {
       },
       {
         id: 'rural-life',
-        src: '/src/assets/images/rural_vietnam_farm_1795079603969.jpg',
+        src: ruralVietnamFarmImg,
         alt: 'Misty morning view of lush green rural Vietnamese countryside and agricultural pathways',
         caption: 'Hands in the soil, early mornings, and respect for where every ingredient begins.',
         location: 'Rural Vietnamese Life',
@@ -114,7 +120,7 @@ export const PORTFOLIO_DATA = {
     title: 'LEARNING THROUGH REAL EXPERIENCES.',
     image: {
       id: 'farm-experience',
-      src: '/src/assets/images/rural_vietnam_farm_1795079603969.jpg',
+      src: ruralVietnamFarmImg,
       alt: 'Vietnamese agricultural countryside at sunrise reflecting practical farm work and discipline',
       caption: 'Grounded in practical daily work, teamwork, and early-morning discipline.',
       location: 'BAF Agricultural Operations',
@@ -267,7 +273,7 @@ export const PORTFOLIO_DATA = {
   },
 
   closing: {
-    backgroundImage: '/src/assets/images/cooking_class_gathering_1795079604080.jpg',
+    backgroundImage: cookingClassGatheringImg,
     backgroundAlt:
       'Travelers and Vietnamese hosts preparing and sharing traditional Vietnamese cuisine around a warm lantern-lit wooden table',
     headline: 'LET’S CREATE SOMETHING MEMORABLE TOGETHER.',
