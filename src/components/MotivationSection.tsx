@@ -26,9 +26,9 @@ export function MotivationSection() {
           </div>
 
           <p className="text-sm leading-relaxed tracking-[0.01em] text-[#F7F3EA]/80 lg:col-span-5">
-            Joining {PORTFOLIO_DATA.personal.targetCompany} brings together everything I care about
-            most: welcoming international travelers, sharing authentic Vietnamese food, and growing
-            through real daily communication.
+            Joining an energetic food tour, travel experience, or hospitality team brings together
+            everything I care about most: welcoming international travelers, sharing authentic
+            Vietnamese culture, and growing through daily communication.
           </p>
         </motion.div>
 

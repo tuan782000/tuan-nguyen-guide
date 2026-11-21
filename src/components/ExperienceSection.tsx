@@ -139,10 +139,10 @@ export function ExperienceSection({ onSelectPhoto }: ExperienceSectionProps) {
                 From Farm Work to Hospitality
               </p>
               <p className="mt-3 text-sm leading-relaxed text-[#5C5852]">
-                Working in livestock operations taught me punctuality, strict hygiene standards,
+                Working in livestock operations taught me punctuality, strict safety standards,
                 physical stamina, and calm teamwork under pressure — habits that transfer directly
-                to preparing ingredients, keeping a clean kitchen, and supporting international
-                guests with care.
+                to following tour routes, maintaining high service quality, and supporting
+                international guests with energy and care.
               </p>
             </div>
           </motion.div>

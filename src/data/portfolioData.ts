@@ -41,8 +41,8 @@ export const PORTFOLIO_DATA = {
     hometown: 'Quy Nhon, Gia Lai, Vietnam',
     hometownShort: 'Quy Nhon, Gia Lai – Vietnam',
     currentLocation: 'Ho Chi Minh City, Vietnam',
-    targetCompany: 'HCM Cooking Class',
-    targetPosition: 'Cooking Class Assistant / Guest Experience Assistant / Tour Experience Staff',
+    targetIndustry: 'Food Tours, Cultural Tourism & Hospitality',
+    targetPosition: 'Tour Guide · Food & Cultural Experience Staff · Guest Experience Assistant',
     englishLevel: 'A2',
     email: 'thaituan7820@gmail.com',
     phone: '0778748901',
@@ -58,7 +58,7 @@ export const PORTFOLIO_DATA = {
       { label: 'Hometown', value: 'Quy Nhon, Gia Lai' },
       { label: 'Current Base', value: 'Ho Chi Minh City' },
       { label: 'Field Experience', value: '3 Months · BAF Farm' },
-      { label: 'English Level', value: 'A2 · Daily Learner' },
+      { label: 'Availability', value: 'Flexible · Evenings & Weekends' },
     ],
   },
 
@@ -68,7 +68,7 @@ export const PORTFOLIO_DATA = {
     'I have three months of practical working experience at BAF pig farm, where I learned about animal care, farm operations, teamwork, discipline, and working in challenging environments.',
     'My English communication level is A2. I enjoy meeting international people, exchanging cultures, and improving my English through real-life communication.',
     'I am responsible, adaptable, willing to learn, and not afraid of physically demanding work.',
-    'I hope to become part of HCM Cooking Class, where I can improve my English communication skills, explore Vietnamese cuisine, culture, and history more deeply, and contribute to creating memorable experiences for international travelers.',
+    'I hope to become part of an international hospitality, food tour, or cultural experience team in Ho Chi Minh City, where I can improve my English communication skills, explore Vietnamese cuisine, culture, and history more deeply, and help create memorable experiences for international travelers.',
   ],
 
   story: {
@@ -160,50 +160,50 @@ export const PORTFOLIO_DATA = {
       {
         number: '01',
         title: 'English Communication',
-        meta: 'Level A2',
+        meta: 'Level A2 · Fast Learner',
         description:
-          'I can communicate in basic everyday situations and am motivated to improve through real-world interaction.',
+          'I can communicate in everyday situations with international visitors and am eager to improve daily through guiding, storytelling, and real-world conversation.',
       },
       {
         number: '02',
-        title: 'Agriculture & Animal Care',
+        title: 'Agriculture & Local Roots',
         meta: 'Practical Foundation',
         description:
-          'Basic knowledge of animal husbandry and veterinary care, especially pig farming.',
+          'Hands-on background in animal husbandry and rural Vietnamese life — giving me authentic stories about ingredients, farming, and local traditions.',
       },
       {
         number: '03',
-        title: 'Computer Skills',
-        meta: 'Everyday Office Tools',
+        title: 'Computer & Coordination',
+        meta: 'Schedules & Office Tools',
         description:
-          'Comfortable using computers and basic office applications.',
+          'Comfortable using computers, messaging apps, and basic office tools to follow routes, schedules, and guest checklists accurately.',
       },
       {
         number: '04',
-        title: 'Driving',
+        title: 'Driving & Route Focus',
         meta: 'Category B · Manual',
         description:
-          'Vietnamese driving licence – Category B, manual transmission.',
+          'Vietnamese driving licence – Category B, manual transmission, with a safety-first mindset and readiness for Ho Chi Minh City routes and schedules.',
       },
       {
         number: '05',
-        title: 'Teamwork',
+        title: 'Teamwork & Hospitality',
         meta: 'Guest & Crew Ready',
         description:
-          'Friendly, cooperative, and comfortable working with different people.',
+          'Friendly, punctual, and cooperative — comfortable working closely with tour leaders, chefs, drivers, and international travelers.',
       },
       {
         number: '06',
-        title: 'Adaptability',
-        meta: 'Hands-On Mindset',
+        title: 'Adaptability & Stamina',
+        meta: 'Active & Flexible',
         description:
-          'Willing to learn new skills and work in physically demanding environments.',
+          'Willing to be trained from scratch, follow company standards strictly, and work energetically in active or evening shifts.',
       },
     ] as SkillItem[],
   },
 
   motivation: {
-    kicker: 'Why HCM Cooking Class?',
+    kicker: 'Why Tourism & Hospitality?',
     title: 'WHY I WANT TO JOIN YOUR JOURNEY.',
     statement:
       '“Food is more than something we eat. It is a story about people, history, culture, and identity.”',
@@ -212,25 +212,25 @@ export const PORTFOLIO_DATA = {
         number: '01',
         title: 'Language Development',
         description:
-          'I want to improve my English through daily communication with international guests and colleagues.',
+          'I want to sharpen my English through daily conversations with international travelers, learning to introduce local dishes and culture clearly and warmly.',
       },
       {
         number: '02',
         title: 'Vietnamese Cuisine',
         description:
-          'I want to discover more about traditional Vietnamese dishes, ingredients, cooking techniques, and regional food culture.',
+          'I want to share authentic street food, regional flavors, fresh ingredients, and traditional cooking methods with guests visiting Vietnam.',
       },
       {
         number: '03',
-        title: 'History & Culture',
+        title: 'History & Local Culture',
         description:
-          'I want to understand the stories, traditions, and history behind Vietnamese cuisine and share these experiences with international travelers.',
+          'I want to be a friendly bridge between international visitors and everyday Saigon life — sharing the stories, traditions, and warmth behind every stop.',
       },
       {
         number: '04',
-        title: 'Personal Growth',
+        title: 'Training & Growth',
         description:
-          'I want to develop my communication, hospitality, teamwork, and guest-support skills.',
+          'I am ready to follow your training from A to Z and grow my tour-leading, presentation, hospitality, and problem-solving skills every shift.',
       },
     ] as MotivationPoint[],
   },
@@ -278,8 +278,8 @@ export const PORTFOLIO_DATA = {
       'Travelers and Vietnamese hosts preparing and sharing traditional Vietnamese cuisine around a warm lantern-lit wooden table',
     headline: 'LET’S CREATE SOMETHING MEMORABLE TOGETHER.',
     paragraphs: [
-      'I hope to have the opportunity to become part of HCM Cooking Class, where I can learn, grow, and contribute positively to your team.',
-      'I look forward to the opportunity to meet you, introduce myself, and discuss how I can contribute to your team.',
+      'I hope to have the opportunity to join your team, learn from your training, and contribute positively to every guest experience.',
+      'I am flexible for part-time, evening, or weekend schedules in Ho Chi Minh City and look forward to meeting you in person for an interview.',
       'Thank you for taking the time to explore my portfolio and consider my application.',
     ],
     signOff: 'Best regards,',

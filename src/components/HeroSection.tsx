@@ -77,7 +77,7 @@ export function HeroSection({ onOpenContact }: HeroSectionProps) {
             <span aria-hidden="true" className="text-[#292929]/30">
               ·
             </span>
-            <span>Application for {PORTFOLIO_DATA.personal.targetCompany}</span>
+            <span>{PORTFOLIO_DATA.personal.targetIndustry}</span>
           </motion.div>
 
           {/* Expressive Display Headline */}

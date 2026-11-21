@@ -7,7 +7,7 @@ export function ClosingSection() {
   const [bgError, setBgError] = useState(false);
 
   const mailtoHref = `mailto:${PORTFOLIO_DATA.personal.email}?subject=${encodeURIComponent(
-    `Application for ${PORTFOLIO_DATA.personal.targetCompany} — ${PORTFOLIO_DATA.personal.displayName}`,
+    `Application & Portfolio — ${PORTFOLIO_DATA.personal.displayName}`,
   )}`;
 
   return (
@@ -41,7 +41,7 @@ export function ClosingSection() {
             className="max-w-3xl"
           >
             <p className="text-xs font-semibold tracking-wider text-[#E8C989]">
-              Closing Note · {PORTFOLIO_DATA.personal.targetCompany}
+              Closing Note · {PORTFOLIO_DATA.personal.currentLocation}
             </p>
 
             <h2 className="mt-4 font-editorial text-3xl font-semibold leading-tight tracking-tight text-[#F7F3EA] sm:text-5xl">
@@ -125,15 +125,10 @@ export function ClosingSection() {
       <footer className="bg-[#16271F] py-6 text-xs text-[#F7F3EA]/65">
         <div className="mx-auto flex max-w-[1280px] flex-col items-center justify-between gap-3 px-6 sm:flex-row lg:px-10">
           <p>
-            © {new Date().getFullYear()} {PORTFOLIO_DATA.personal.displayName} · Personal Portfolio
-            for {PORTFOLIO_DATA.personal.targetCompany}
+            © {new Date().getFullYear()} {PORTFOLIO_DATA.personal.displayName} · Tourism &amp;
+            Cultural Hospitality Portfolio
           </p>
-          <a
-            href="#top"
-            className="font-medium text-[#E8C989] transition-colors hover:text-[#F7F3EA]"
-          >
-            Back to top
-          </a>
+         
         </div>
       </footer>
     </section>

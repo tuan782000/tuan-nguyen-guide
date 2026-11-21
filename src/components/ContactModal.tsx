@@ -31,7 +31,7 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
   };
 
   const mailtoHref = `mailto:${PORTFOLIO_DATA.personal.email}?subject=${encodeURIComponent(
-    `Application for ${PORTFOLIO_DATA.personal.targetCompany} — ${PORTFOLIO_DATA.personal.displayName}`,
+    `Application & Portfolio — ${PORTFOLIO_DATA.personal.displayName}`,
   )}`;
 
   return (
@@ -75,8 +75,8 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
               Connect with {PORTFOLIO_DATA.personal.displayName}
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-[#5C5852]">
-              Available to meet in Ho Chi Minh City for an interview or trial shift with{' '}
-              {PORTFOLIO_DATA.personal.targetCompany}.
+              Available in Ho Chi Minh City for part-time, evening, or weekend shifts — ready for
+              an interview or training trial.
             </p>
 
             <div className="mt-6 space-y-3">

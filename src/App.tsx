@@ -9,6 +9,8 @@ import { PersonalitySection } from './components/PersonalitySection';
 import { ClosingSection } from './components/ClosingSection';
 import { LightboxModal } from './components/LightboxModal';
 import { ContactModal } from './components/ContactModal';
+import { BackToTopButton } from './components/BackToTopButton';
+import { ZaloButton } from './components/ZaloButton';
 import type { EditorialPhoto } from './data/portfolioData';
 
 export default function App() {
@@ -29,6 +31,8 @@ export default function App() {
         <ClosingSection />
       </main>
 
+      <ZaloButton />
+      <BackToTopButton />
       <LightboxModal photo={selectedPhoto} onClose={() => setSelectedPhoto(null)} />
       <ContactModal isOpen={contactOpen} onClose={() => setContactOpen(false)} />
     </div>
